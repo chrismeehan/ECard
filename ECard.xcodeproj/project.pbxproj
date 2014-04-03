@@ -21,6 +21,13 @@
 		202D662A18EC877D00F556D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202D660C18EC877C00F556D7 /* UIKit.framework */; };
 		202D663218EC877D00F556D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 202D663018EC877D00F556D7 /* InfoPlist.strings */; };
 		202D663418EC877D00F556D7 /* ECardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 202D663318EC877D00F556D7 /* ECardTests.m */; };
+		202D664218ECAB9100F556D7 /* MyCustomEmailer.m in Sources */ = {isa = PBXBuildFile; fileRef = 202D664118ECAB9000F556D7 /* MyCustomEmailer.m */; };
+		202D664818ECC34900F556D7 /* ECardCropped.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202D664718ECC34900F556D7 /* ECardCropped.jpg */; };
+		202D664A18ECC48800F556D7 /* ECardUnderTheSend.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202D664918ECC48800F556D7 /* ECardUnderTheSend.jpg */; };
+		202D664F18ECCEB400F556D7 /* ECard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202D664E18ECCEB300F556D7 /* ECard.jpg */; };
+		202D665718ED087200F556D7 /* ECardCroppedRev.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202D665618ED087200F556D7 /* ECardCroppedRev.jpg */; };
+		202D665918ED0C6800F556D7 /* ECardEdgeRev.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202D665818ED0C6800F556D7 /* ECardEdgeRev.jpg */; };
+		202D665B18ED0F9200F556D7 /* ECardEdgeRev2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202D665A18ED0F9100F556D7 /* ECardEdgeRev2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,14 @@
 		202D662F18EC877D00F556D7 /* ECardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ECardTests-Info.plist"; sourceTree = "<group>"; };
 		202D663118EC877D00F556D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		202D663318EC877D00F556D7 /* ECardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECardTests.m; sourceTree = "<group>"; };
+		202D664018ECAB9000F556D7 /* MyCustomEmailer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomEmailer.h; sourceTree = "<group>"; };
+		202D664118ECAB9000F556D7 /* MyCustomEmailer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomEmailer.m; sourceTree = "<group>"; };
+		202D664718ECC34900F556D7 /* ECardCropped.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ECardCropped.jpg; sourceTree = "<group>"; };
+		202D664918ECC48800F556D7 /* ECardUnderTheSend.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ECardUnderTheSend.jpg; sourceTree = "<group>"; };
+		202D664E18ECCEB300F556D7 /* ECard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ECard.jpg; sourceTree = "<group>"; };
+		202D665618ED087200F556D7 /* ECardCroppedRev.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ECardCroppedRev.jpg; sourceTree = "<group>"; };
+		202D665818ED0C6800F556D7 /* ECardEdgeRev.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ECardEdgeRev.jpg; sourceTree = "<group>"; };
+		202D665A18ED0F9100F556D7 /* ECardEdgeRev2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ECardEdgeRev2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +130,18 @@
 				202D661718EC877D00F556D7 /* CAMAppDelegate.h */,
 				202D661818EC877D00F556D7 /* CAMAppDelegate.m */,
 				202D661A18EC877D00F556D7 /* Main.storyboard */,
+				202D664718ECC34900F556D7 /* ECardCropped.jpg */,
+				202D664918ECC48800F556D7 /* ECardUnderTheSend.jpg */,
+				202D665618ED087200F556D7 /* ECardCroppedRev.jpg */,
+				202D664E18ECCEB300F556D7 /* ECard.jpg */,
+				202D665818ED0C6800F556D7 /* ECardEdgeRev.jpg */,
+				202D665A18ED0F9100F556D7 /* ECardEdgeRev2.jpg */,
 				202D661D18EC877D00F556D7 /* CAMViewController.h */,
 				202D661E18EC877D00F556D7 /* CAMViewController.m */,
 				202D662018EC877D00F556D7 /* Images.xcassets */,
 				202D660F18EC877C00F556D7 /* Supporting Files */,
+				202D664018ECAB9000F556D7 /* MyCustomEmailer.h */,
+				202D664118ECAB9000F556D7 /* MyCustomEmailer.m */,
 			);
 			path = ECard;
 			sourceTree = "<group>";
@@ -229,9 +252,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				202D665918ED0C6800F556D7 /* ECardEdgeRev.jpg in Resources */,
+				202D664A18ECC48800F556D7 /* ECardUnderTheSend.jpg in Resources */,
+				202D665718ED087200F556D7 /* ECardCroppedRev.jpg in Resources */,
 				202D662118EC877D00F556D7 /* Images.xcassets in Resources */,
+				202D665B18ED0F9200F556D7 /* ECardEdgeRev2.jpg in Resources */,
 				202D661318EC877C00F556D7 /* InfoPlist.strings in Resources */,
 				202D661C18EC877D00F556D7 /* Main.storyboard in Resources */,
+				202D664F18ECCEB400F556D7 /* ECard.jpg in Resources */,
+				202D664818ECC34900F556D7 /* ECardCropped.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				202D664218ECAB9100F556D7 /* MyCustomEmailer.m in Sources */,
 				202D661F18EC877D00F556D7 /* CAMViewController.m in Sources */,
 				202D661918EC877D00F556D7 /* CAMAppDelegate.m in Sources */,
 				202D661518EC877D00F556D7 /* main.m in Sources */,
@@ -461,6 +491,7 @@
 				202D663918EC877D00F556D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		202D663A18EC877D00F556D7 /* Build configuration list for PBXNativeTarget "ECardTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +500,7 @@
 				202D663C18EC877D00F556D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
